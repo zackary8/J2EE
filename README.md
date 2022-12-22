@@ -1,14 +1,8 @@
 # JEE Activité pratique du contrôle #
-# Front
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
 ## objectif ##
-## Development server
-
    Créer une application basée sur une architecture micro-service qui permet de gérer les factures contenant des produits et appartenant à un client.
  ### Travail a faire ###
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
         1.Créer le micro-service customer-service qui permet de gérer les client
         2.Créer le micro-service inventory-service qui permet de gérer les produits
@@ -30,7 +24,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
            - Le code sources de l'ensemble des micro-services et du frontend
            - Le rapport montrant les différentes étapes dans le fichier README.MD
 ------------------------------------------------------------------------------------------------
-## Code scaffolding
 
 ### 1.Créer le micro-service customer-service qui permet de gérer les client
 ![1](https://user-images.githubusercontent.com/63524598/209022378-8f2c7fd0-2373-46b8-89e7-ab1a4c3b3eea.PNG)
