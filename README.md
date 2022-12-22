@@ -68,8 +68,10 @@
 
 ### 8. Déployer le serveur keycloak Docker:
    - lancez Keycloak avec la commande suivante :
+   
    docker run -p 8080:8080 -e KEYCLOAK_ADMIN=*** -e KEYCLOAK_ADMIN_PASSWORD=*** quay.io/keycloak/keycloak:20.0.2 start-dev
-    - Créer un Realm!
+   
+   - Créer un Realm!
    ![8,1](https://user-images.githubusercontent.com/63524598/209029140-f001a063-d32b-44c1-916f-a2a1eb7250e1.PNG)
 
      - Créer un client à sécuriser
