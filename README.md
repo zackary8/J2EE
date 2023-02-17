@@ -89,7 +89,7 @@
 ### 9.2 Product 
 ![9,1](https://user-images.githubusercontent.com/63524598/209029337-9defd00e-39fb-415c-b136-4b8f5509c8ee.PNG)
 
-# Dernière partie à ajouter :#
+# Dernière partie à ajouter : #
  ### Travail a faire ###
 1. Intégration du Bocker KAFKA
 2. Création d'un micro-service qui permet de produire aléatoirement des factures et de les publier dans un Topic KAFKA
