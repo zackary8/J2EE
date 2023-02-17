@@ -98,3 +98,21 @@
 5. Créer une Page Frontend qui permet de présenter en temps réel les courbes qui montrent les résultats produits par le service du Data Analytics
 6. Déployer l'ensemble des services de l'application en utilisant des conteneur Docker : Créer les images Docker pour chaque service et et le fichier Docker-compose.yml qui permet de déployer toute l'application
 ------------------------------------------------------------------------------------------------
+### 1. Intégration du Bocker KAFKA
+### 2. Création d'un micro-service qui permet de produire aléatoirement des factures et de les publier dans un Topic KAFKA
+![2](https://user-images.githubusercontent.com/63524598/219706688-7c79afb1-5ab4-4b73-a171-8634df14dab8.PNG)
+
+### 3. Permettre au Micro-service déjà développé BILLING-SERVICE de consommer les factures publier dans le Topic KAFKA et de les enregistrer dans sa base de données
+![3](https://user-images.githubusercontent.com/63524598/219706880-0881bf97-c341-438a-97a4-2360745f2207.PNG)
+
+### 4. Créer un micro-service Data-Analytics-Service qui utilise l'API KAFKA Streams pour effectuer du Real Time Stream Processing en consommant le streams de facture publiées dans le Topic KAFKA
+![4](https://user-images.githubusercontent.com/63524598/219706990-6c733f93-d537-4f32-9427-411dd0c28e11.PNG)
+
+### 5. Créer une Page Frontend qui permet de présenter en temps réel les courbes qui montrent les résultats produits par le service du Data Analytics
+![5](https://user-images.githubusercontent.com/63524598/219707016-16ea913f-1ad4-4d96-b210-5cf740335df5.PNG)
+
+
+
+
+
+
