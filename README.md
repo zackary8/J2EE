@@ -1,5 +1,5 @@
-# JEE Activité pratique du contrôle #
-
+# Projet JEE et Systèmes Distribués #
+## Première partie du Projet : ##
 ## objectif ##
    Créer une application basée sur une architecture micro-service qui permet de gérer les factures contenant des produits et appartenant à un client.
  ### Travail a faire ###
@@ -88,3 +88,13 @@
 
 ### 9.2 Product 
 ![9,1](https://user-images.githubusercontent.com/63524598/209029337-9defd00e-39fb-415c-b136-4b8f5509c8ee.PNG)
+
+# Dernière partie à ajouter :#
+ ### Travail a faire ###
+1. Intégration du Bocker KAFKA
+2. Création d'un micro-service qui permet de produire aléatoirement des factures et de les publier dans un Topic KAFKA
+3. Permettre au Micro-service déjà développé BILLING-SERVICE de consommer les factures publier dans le Topic KAFKA et de les enregistrer dans sa base de données
+4. Créer un micro-service Data-Analytics-Service qui utilise l'API KAFKA Streams pour effectuer du Real Time Stream Processing en consommant le streams de facture publiées dans le Topic KAFKA
+5. Créer une Page Frontend qui permet de présenter en temps réel les courbes qui montrent les résultats produits par le service du Data Analytics
+6. Déployer l'ensemble des services de l'application en utilisant des conteneur Docker : Créer les images Docker pour chaque service et et le fichier Docker-compose.yml qui permet de déployer toute l'application
+------------------------------------------------------------------------------------------------
